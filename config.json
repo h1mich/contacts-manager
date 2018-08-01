@@ -1,0 +1,615 @@
+{
+  "usernameFormat": "^([a-zA-Z0-9_-\\s]){2,16}$",
+  "passwordFormat": "^([a-zA-Z0-9_-]){2,8}$",
+  "phoneFormat": "^([0-9]){2,16}$",
+  "nameFormat": "^([a-zA-Z0-9_-\\s]){2,36}$",
+
+  "MIN_SCREEN_WIDTH": 1024,
+  "MIN_SCREEN_HEIGHT": 400,
+
+  "port": 8888,
+  "serverDelay": 500,
+
+  "dummies": [
+    {
+      "name": "Egor Koshelko",
+      "phone": "35307482303",
+      "comment": "Cool developer",
+      "date": 1416693580701
+    },
+    {
+      "name": "Marvin Romero",
+      "phone": 28205122414,
+      "comment": "Someone I know recently combined Maple Syrup & buttered Popcorn thinking it would taste like caramel popcorn. It didn’t and they don’t recommend anyone else do it either.",
+      "date": 1453743495532
+    },
+    {
+      "name": "Bill Rodriquez",
+      "phone": 314912215058,
+      "comment": "Rock music approaches at high velocity.",
+      "date": 1405852627545
+    },
+    {
+      "name": "Carrie Steele",
+      "phone": 30221354912,
+      "comment": "Wednesday is hump day, but has anyone asked the camel if he’s happy about it?",
+      "date": 1335929944382
+    },
+    {
+      "name": "Leland Shaw",
+      "phone": 39596942422,
+      "comment": "Hahaha, what did you say about my mom?",
+      "date": 1348633460154
+    },
+    {
+      "name": "Noah Daniel",
+      "phone": 51619492818,
+      "comment": "Writing a list of random sentences is harder than I initially thought it would be.",
+      "date": 1355324481498
+    },
+    {
+      "name": "Shawna Rhodes",
+      "phone": 75811461363,
+      "comment": "If I don’t like something, I’ll stay away from it.",
+      "date": 1437502265064
+    },
+    {
+      "name": "Clifford Sanders",
+      "phone": 77318670622,
+      "comment": "I would have gotten the promotion, but my attendance wasn’t good enough.",
+      "date": 1503643568836
+    },
+    {
+      "name": "Terry Parsons",
+      "phone": 263914778997,
+      "comment": "I really want to go to work, but I am too sick to drive.",
+      "date": 1346703137614
+    },
+    {
+      "name": "Lowell Schneider",
+      "phone": 385442511605,
+      "comment": "They got there early, and they got really good seats.",
+      "date": 1514838539081
+    },
+    {
+      "name": "Ray James",
+      "phone": 235069711066,
+      "comment": "Mary plays the piano.",
+      "date": 1329413799351
+    },
+    {
+      "name": "Maurice Dunn",
+      "phone": 32549890148,
+      "comment": "The old apple revels in its authority.",
+      "date": 1438800828625
+    },
+    {
+      "name": "Moses Alvarez",
+      "phone": 95103099365,
+      "comment": "He didn’t want to go to the dentist, yet he went anyway.",
+      "date": 1334469370437
+    },
+    {
+      "name": "Sylvia Weber",
+      "phone": 18078882694,
+      "comment": "The lake is a long way from here.",
+      "date": 1484745322391
+    },
+    {
+      "name": "Susan Barnett",
+      "phone": 22804531409,
+      "comment": "Cats are good pets, for they are clean and are not noisy.",
+      "date": 1460507713327
+    },
+    {
+      "name": "Darla Russell",
+      "phone": 714408376902,
+      "comment": "She folded her handkerchief neatly.",
+      "date": 1524858770481
+    },
+    {
+      "name": "Dianne Elliott",
+      "phone": 109916460738,
+      "comment": "Tom got a small piece of pie.",
+      "date": 1428536031231
+    },
+    {
+      "name": "Clayton Simmons",
+      "phone": 2367598667,
+      "comment": "The river stole the gods.",
+      "date": 1448336549338
+    },
+    {
+      "name": "Walter Wheeler",
+      "phone": 52108498558,
+      "comment": "Sometimes it is better to just walk away from things and go back to them later when you’re in a better frame of mind.",
+      "date": 1381858708913
+    },
+    {
+      "name": "Jennie Sandoval",
+      "phone": 889515942782,
+      "comment": "A purple pig and a green donkey flew a kite in the middle of the night and ended up sunburnt.",
+      "date": 1458773358359
+    },
+    {
+      "name": "Gerard Stanley",
+      "phone": 20611039801,
+      "comment": "This is the last random sentence I will be writing and I am going to stop mid-sent.",
+      "date": 1437401495520
+    },
+    {
+      "name": "Robin Higgins",
+      "phone": 24121362835,
+      "comment": "Yeah, I think it's a good environment for learning English.",
+      "date": 1470555767919
+    },
+    {
+      "name": "Billy Todd",
+      "phone": 66035117138,
+      "comment": "She did her best to help him.",
+      "date": 1461234988279
+    },
+    {
+      "name": "Miriam Moore",
+      "phone": 349787556975,
+      "comment": "I was very proud of my nickname throughout high school but today- I couldn’t be any different to what my nickname was.",
+      "date": 1450529276424
+    },
+    {
+      "name": "Elaine Banks",
+      "phone": 95720472274,
+      "comment": "I want more detailed information.",
+      "date": 1357927417629
+    },
+    {
+      "name": "Roberto Hammond",
+      "phone": 97859966934,
+      "comment": "My Mum tries to be cool by saying that she likes all the same things that I do.",
+      "date": 1377169484662
+    },
+    {
+      "name": "Sylvester Baker",
+      "phone": 93773855966,
+      "comment": "Is it free?",
+      "date": 1445851447986
+    },
+    {
+      "name": "Corey Howard",
+      "phone": 40915859225,
+      "comment": "I want to buy a onesie but know it won’t suit me.",
+      "date": 1524030060680
+    },
+    {
+      "name": "Reginald Gomez",
+      "phone": 4805179291,
+      "comment": "Joe made the sugar cookies; Susan decorated them.",
+      "date": 1497384699470
+    },
+    {
+      "name": "Lester Harmon",
+      "phone": 86435498087,
+      "comment": "The shooter says goodbye to his love.",
+      "date": 1334227983051
+    },
+    {
+      "name": "Irene Johnston",
+      "phone": 162215575164,
+      "comment": "She only paints with bold colors; she does not like pastels.",
+      "date": 1349811407178
+    },
+    {
+      "name": "Minnie Mathis",
+      "phone": 81673707064,
+      "comment": "The waves were crashing on the shore; it was a lovely sight.",
+      "date": 1384399484139
+    },
+    {
+      "name": "Brooke Logan",
+      "phone": 145339111547,
+      "comment": "I am never at home on Sundays.",
+      "date": 1371884597578
+    },
+    {
+      "name": "Katie Reyes",
+      "phone": 88940516406,
+      "comment": "She always speaks to him in a loud voice.",
+      "date": 1414584575858
+    },
+    {
+      "name": "Pauline Robinson",
+      "phone": 53065879089,
+      "comment": "She advised him to come back at once.",
+      "date": 1336499000515
+    },
+    {
+      "name": "Nettie Meyer",
+      "phone": 69803817993,
+      "comment": "There was no ice cream in the freezer, nor did they have money to go to the store.",
+      "date": 1369970427557
+    },
+    {
+      "name": "Lyle Brooks",
+      "phone": 37019428415,
+      "comment": "The memory we used to share is no longer coherent.",
+      "date": 1416669793354
+    },
+    {
+      "name": "Dallas Carr",
+      "phone": 46116440077,
+      "comment": "I think I will buy the red car, or I will lease the blue one.",
+      "date": 1506612251399
+    },
+    {
+      "name": "Emilio Jones",
+      "phone": 62688719062,
+      "comment": "The mysterious diary records the voice.",
+      "date": 1434428381643
+    },
+    {
+      "name": "Kayla Holt",
+      "phone": 6060873502055,
+      "comment": "We have never been to Asia, nor have we visited Africa.",
+      "date": 1445614486102
+    },
+    {
+      "name": "Ethel Perez",
+      "phone": 8403042593371,
+      "comment": "I checked to make sure that he was still alive.",
+      "date": 1408814591252
+    },
+    {
+      "name": "Georgia Gutierrez",
+      "phone": 44203112315,
+      "comment": "When I was little I had a car door slammed shut on my hand. I still remember it quite vividly.",
+      "date": 1327147125667
+    },
+    {
+      "name": "Francis West",
+      "phone": 98991838536,
+      "comment": "It was getting dark, and we weren’t there yet.",
+      "date": 1352063660782
+    },
+    {
+      "name": "Leigh Lawson",
+      "phone": 14404556735,
+      "comment": "Should we start class now, or should we wait for everyone to get here?",
+      "date": 1499269578501
+    },
+    {
+      "name": "Celia Holmes",
+      "phone": 730081304633,
+      "comment": "He said he was not there yesterday; however, many people saw him there.",
+      "date": 1473118729177
+    },
+    {
+      "name": "Tiffany Patrick",
+      "phone": 47508183617,
+      "comment": "Malls are great places to shop; I can find everything I need under one roof.",
+      "date": 1430157172194
+    },
+    {
+      "name": "Craig Lambert",
+      "phone": 670950202696,
+      "comment": "He told us a very exciting adventure story.",
+      "date": 1527337887663
+    },
+    {
+      "name": "Israel Moran",
+      "phone": 100190663594,
+      "comment": "If the Easter Bunny and the Tooth Fairy had babies would they take your teeth and leave chocolate for you?",
+      "date": 1345501061317
+    },
+    {
+      "name": "Raquel Ramirez",
+      "phone": 842217261003,
+      "comment": "I often see the time 11:11 or 12:34 on clocks.",
+      "date": 1492161145525
+    },
+    {
+      "name": "Emily Benson",
+      "phone": 58373392083,
+      "comment": "Everyone was busy, so I went to the movie alone.",
+      "date": 1432711378806
+    },
+    {
+      "name": "Yvonne Nelson",
+      "phone": 24163628546,
+      "comment": "He turned in the research paper on Friday; otherwise, he would have not passed the class.",
+      "date": 1383534265925
+    },
+    {
+      "name": "Rachael Miller",
+      "phone": 746034480415,
+      "comment": "Sometimes, all you need to do is completely make an ass of yourself and laugh it off to realise that life isn’t so bad after all.",
+      "date": 1346925093517
+    },
+    {
+      "name": "Katherine Hodges",
+      "phone": 66702044974,
+      "comment": "What was the person thinking when they discovered cow’s milk was fine for human consumption… and why did they do it in the first place!?",
+      "date": 1326500633738
+    },
+    {
+      "name": "Toni Butler",
+      "phone": 74992079987,
+      "comment": "Last Friday in three week’s time I saw a spotted striped blue worm shake hands with a legless lizard.",
+      "date": 1472725643691
+    },
+    {
+      "name": "Alma Fernandez",
+      "phone": 69364587379,
+      "comment": "Abstraction is often one floor above you.",
+      "date": 1379384919559
+    },
+    {
+      "name": "Darrell Sutton",
+      "phone": 884681179557,
+      "comment": "The quick brown fox jumps over the lazy dog.",
+      "date": 1346146098511
+    },
+    {
+      "name": "Terri Dawson",
+      "phone": 13737896629,
+      "comment": "A glittering gem is not enough.",
+      "date": 1355588175296
+    },
+    {
+      "name": "Samantha Morgan",
+      "phone": 861878969434,
+      "comment": "I currently have 4 windows open up… and I don’t know why.",
+      "date": 1453312336691
+    },
+    {
+      "name": "Marty Crawford",
+      "phone": 56114331205,
+      "comment": "She wrote him a long letter, but he didn't read it.",
+      "date": 1454494650118
+    },
+    {
+      "name": "Alison Greene",
+      "phone": 52777839833,
+      "comment": "A song can make or ruin a person’s day if they let it get to them.",
+      "date": 1455225526213
+    },
+    {
+      "name": "Floyd Young",
+      "phone": 902147270606,
+      "comment": "Italy is my favorite country; in fact, I plan to spend two weeks there next year.",
+      "date": 1436880762094
+    },
+    {
+      "name": "Otis Reeves",
+      "phone": 34651087391,
+      "comment": "Hurry!",
+      "date": 1513744938801
+    },
+    {
+      "name": "Sara Marshall",
+      "phone": 423742551093,
+      "comment": "We need to rent a room for our party.",
+      "date": 1350611609827
+    },
+    {
+      "name": "Lynette Thomas",
+      "phone": 814681685594,
+      "comment": "I hear that Nancy is very pretty.",
+      "date": 1419730686387
+    },
+    {
+      "name": "Tomas Bridges",
+      "phone": 99114782344,
+      "comment": "The stranger officiates the meal.",
+      "date": 1459295203392
+    },
+    {
+      "name": "Garrett Willis",
+      "phone": 30029794882,
+      "comment": "I am happy to take your donation; any amount will be greatly appreciated.",
+      "date": 1349340911770
+    },
+    {
+      "name": "Nick White",
+      "phone": 88884986061,
+      "comment": "The sky is clear; the stars are twinkling.",
+      "date": 1444023664295
+    },
+    {
+      "name": "Gerardo Rios",
+      "phone": 14595585468,
+      "comment": "Lets all be unique together until we realise we are all the same.",
+      "date": 1374844866489
+    },
+    {
+      "name": "Hugo Moreno",
+      "phone": 366286093,
+      "comment": "The body may perhaps compensates for the loss of a true metaphysics.",
+      "date": 1503192800335
+    },
+    {
+      "name": "Keith Reynolds",
+      "phone": 99535299665,
+      "comment": "Where do random thoughts come from?",
+      "date": 1375835610011
+    },
+    {
+      "name": "Samuel Hunt",
+      "phone": 29231637053,
+      "comment": "Christmas is coming.",
+      "date": 1334095293218
+    },
+    {
+      "name": "Fannie Carroll",
+      "phone": 53941738466,
+      "comment": "She borrowed the book from him many years ago and hasn't yet returned it.",
+      "date": 1351953980382
+    },
+    {
+      "name": "Marshall Cunningham",
+      "phone": 272070807616,
+      "comment": "The book is in front of the table.",
+      "date": 1366118220684
+    },
+    {
+      "name": "Benjamin Wells",
+      "phone": 110978691039,
+      "comment": "Please wait outside of the house.",
+      "date": 1441906793830
+    },
+    {
+      "name": "Kelly Garza",
+      "phone": 95437738154,
+      "comment": "Sixty-Four comes asking for bread.",
+      "date": 1421155854898
+    },
+    {
+      "name": "Amelia Pierce",
+      "phone": 14654171558,
+      "comment": "She did not cheat on the test, for it was not the right thing to do.",
+      "date": 1502993674644
+    },
+    {
+      "name": "Stewart Hanson",
+      "phone": 715002749598,
+      "comment": "The clock within this blog and the clock on my laptop are 1 hour different from each other.",
+      "date": 1332659937785
+    },
+    {
+      "name": "Marsha Nichols",
+      "phone": 97491247108,
+      "comment": "Two seats were vacant.",
+      "date": 1487360547087
+    },
+    {
+      "name": "Tyrone Mendez",
+      "phone": 64759427607,
+      "comment": "Don't step on the broken glass.",
+      "date": 1496258074003
+    },
+    {
+      "name": "Everett Adkins",
+      "phone": 88657898781,
+      "comment": "If you like tuna and tomato sauce- try combining the two. It’s really not as bad as it sounds.",
+      "date": 1402140129612
+    },
+    {
+      "name": "Patsy Fuller",
+      "phone": 73053741516,
+      "comment": "I am counting my calories, yet I really want dessert.",
+      "date": 1387768247421
+    },
+    {
+      "name": "Wayne Sanchez",
+      "phone": 12545436968,
+      "comment": "I'd rather be a bird than a fish.",
+      "date": 1395319874521
+    },
+    {
+      "name": "Margarita Sharp",
+      "phone": 75323295853,
+      "comment": "He ran out of money, so he had to stop playing poker.",
+      "date": 1376661340541
+    },
+    {
+      "name": "Lois Fleming",
+      "phone": 59761856728,
+      "comment": "How was the math test?",
+      "date": 1405387432091
+    },
+    {
+      "name": "Lee Andrews",
+      "phone": 38738658021,
+      "comment": "If Purple People Eaters are real… where do they find purple people to eat?",
+      "date": 1340631677152
+    },
+    {
+      "name": "Benny Mcbride",
+      "phone": 95800438138,
+      "comment": "Wow, does that work?",
+      "date": 1330893899675
+    },
+    {
+      "name": "Salvador Castro",
+      "phone": 301262018502,
+      "comment": "We have a lot of rain in June.",
+      "date": 1428852329187
+    },
+    {
+      "name": "Saul Bowers",
+      "phone": 727453074486,
+      "comment": "Let me help you with your baggage.",
+      "date": 1391609137747
+    },
+    {
+      "name": "Pamela Martin",
+      "phone": 43325079928,
+      "comment": "Check back tomorrow; I will see if the book has arrived.",
+      "date": 1365055200846
+    },
+    {
+      "name": "Andy Tate",
+      "phone": 943429217986,
+      "comment": "This is a Japanese doll.",
+      "date": 1449821261236
+    },
+    {
+      "name": "Ed Glover",
+      "phone": 372834731756,
+      "comment": "She works two jobs to make ends meet; at least, that was her reason for not having time to join us.",
+      "date": 1342998221037
+    },
+    {
+      "name": "Simon Wilkins",
+      "phone": 8224066751,
+      "comment": "There were white out conditions in the town; subsequently, the roads were impassable.",
+      "date": 1499398877723
+    },
+    {
+      "name": "Kellie Bishop",
+      "phone": 429037045103,
+      "comment": "I love eating toasted cheese and tuna sandwiches.",
+      "date": 1480719827378
+    },
+    {
+      "name": "Charlene Buchanan",
+      "phone": 12057403047,
+      "comment": "She was too short to see over the fence.",
+      "date": 1429959717016
+    },
+    {
+      "name": "Isabel Cole",
+      "phone": 67016521696,
+      "comment": "He said he was not there yesterday; however, many people saw him there.",
+      "date": 1489747462059
+    },
+    {
+      "name": "Clint Thornton",
+      "phone": 7020140197,
+      "comment": "The tool chooses nouns, verbs and adjectives from a hand-picked list of thousands of the most evocative words and generates a random sentence to help inspire you.",
+      "date": 1468624059261
+    },
+    {
+      "name": "Sally Pena",
+      "phone": 785531459655,
+      "comment": "The anchored collection invites into the creative spare.",
+      "date": 1382674345630
+    },
+    {
+      "name": "Horace Lindsey",
+      "phone": 913750897618,
+      "comment": "Did the intrigued stop really work the service?",
+      "date": 1489043301636
+    },
+    {
+      "name": "Dora Robbins",
+      "phone": 75567147171,
+      "comment": "What if the complex grandfather ate the bike?",
+      "date": 1380071464360
+    },
+    {
+      "name": "Laverne Larson",
+      "phone": 88987726915,
+      "comment": "The incompetent business can't yell the program.",
+      "date": 1419225918860
+    }
+  ]
+}

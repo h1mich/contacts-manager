@@ -1,0 +1,10 @@
+/* All hover effects should be put here (because it is impossible to implement them using inline styles) */
+
+.blue-hover:hover { background-color: rgba(15, 33, 76, 0.8) !important; }
+
+.white-hover:hover { background-color: rgba(15, 33, 76, 0.2) !important; }
+.light-white-hover:hover { background-color: rgba(15, 33, 76, 0.05) !important; }
+
+.red-hover:hover { background-color: rgba(255, 0, 0, 0.8) !important; }
+
+.text-hover:hover { text-decoration: underline }

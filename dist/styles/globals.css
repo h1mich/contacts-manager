@@ -1,0 +1,15 @@
+/* All the global styles should be put here */
+
+* { box-sizing: border-box; }
+
+textarea { resize: none;  }
+
+body ::-webkit-scrollbar { width: 13px; }
+body ::-webkit-scrollbar-thumb { background: rgb(15, 33, 76); }
+body ::-webkit-scrollbar-thumb:hover { background: rgba(15, 33, 76, 0.65); }
+body ::-webkit-scrollbar-track {
+  background: rgb(235, 235, 235);
+  border-left: 1px solid rgb(205, 205, 205);
+}
+
+a { color: blue !important; }
